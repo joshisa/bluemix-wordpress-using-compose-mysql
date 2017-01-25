@@ -22,6 +22,7 @@ RewriteRule . /index.php [L]
 <ifModule mod_expires.c>
   ExpiresActive On
   ExpiresDefault "access plus 5 seconds"
+  ExpiresByType image/vnd.microsoft.icon "access plus 2592000 seconds"
   ExpiresByType image/x-icon "access plus 2592000 seconds"
   ExpiresByType image/jpeg "access plus 2592000 seconds"
   ExpiresByType image/png "access plus 2592000 seconds"
